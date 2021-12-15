@@ -1,0 +1,37 @@
+#container {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background: url("https://www.clipartmax.com/png/middle/174-1743318_clip-art-tags-clock-without-hands.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour {
+  width: 1%;
+  height: 26%;
+  top: 25%;
+  left: 49.77%;
+  opacity: 0.8;
+ }
+
+#minute {
+    width: 1%;
+  height: 29%;
+  top: 22%;
+  left: 49.77%;
+  opacity: 0.8;
+}
+#second {
+    width: 1%;
+    height: 33%;
+    top: 18%;
+    left: 49.77%;
+    opacity: 0.8; 
+}
